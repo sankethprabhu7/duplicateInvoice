@@ -1,0 +1,32 @@
+.detail-navbar {
+  padding: 0em;
+  background-color:#031A6B;
+
+  margin: 0em;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 86% 14%;
+  .detail-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .navbar-title {
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+      color: white;
+    }
+  }
+    .username{
+      padding-top: 10px;
+      padding-bottom: 5px;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+      color: white;
+      text-align: center;
+      .username1,.usericon{
+        display: inline;
+      }
+    }
+  }

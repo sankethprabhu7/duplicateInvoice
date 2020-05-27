@@ -1,0 +1,105 @@
+.fromdatepicker,.todatepicker,.submitdatepicker,.contamination,.saveresults1{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 2%;
+  }
+
+  .fromdatepicker,.todatepicker,.saveresults1,.continput{
+    width: 270px;
+  }
+  .continput,.contbutton1{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 2%;
+  }
+
+  #submitbutton{
+      width: 6rem;   
+  }
+
+      
+  .datepicker{
+      margin-top: 2rem;
+      padding-top: 1rem;
+    .datepicker-tittle{
+      margin-bottom: 1rem ;
+    }
+  }
+
+  #myDIV{
+    max-width : 98.5%;
+    -webkit-box-shadow: 0px -1px 5px 1px rgba(51,49,51,1);
+    -moz-box-shadow: 0px -1px 5px 1px rgba(51,49,51,1);
+    box-shadow: 0px -1px 5px 1px rgba(51,49,51,1);
+    border: 1px solid white;
+    padding: 0.5em;
+    margin-bottom: 2rem;
+    overflow-y: auto;
+    overflow-x: auto scroll;
+    max-height: 22rem;
+
+  }
+
+  .table-view{
+    width: 97% ;
+    margin-left: 2%;
+  }
+  // .totalrowcount,.tableview-header{
+  //   display: inline-block;
+  //   vertical-align: top;
+  //   margin-top: 1rem;
+  // }
+
+  .totalrowcount{
+        width:30%
+  }
+
+  .tableview-header{
+    width:70%
+  }
+  .table-view-header-border{
+      border-bottom: 1px solid lightgray;
+  }
+
+  .busyindicator{
+      height: 0;
+      margin-top: 0.5rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+  .dialog-main-section {
+    padding: 0.5em;
+    min-width: 15em;
+    width: 500px;
+    span{
+        padding: 0 0.5em;
+    }
+}
+
+.date-innerblock{
+  background-color : #354589;
+  padding-top: 1rem;
+}
+.labels{
+  font-weight: bold;
+  color: white;
+
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0em;
+  background-color: #031A6B;
+  margin-bottom: 0em;
+  height: 40px;
+  margin-top:3rem;
+}
+// .contbutton2{
+//   bottom: 1;
+//   position: fixed;
+// }
